@@ -6,4 +6,4 @@ searchstring = 'https://api.songkick.com/api/3.0/artists/' + artist_id + '/gigog
 print(searchstring)'''
 
 response = requests.get('https://opendata-download-metobs.smhi.se/api')
-print(response)
+print(response.status_code)
